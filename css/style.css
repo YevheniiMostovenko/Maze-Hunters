@@ -1,10 +1,12 @@
 body {
-	background-image: url(../src/bg.png);
+	/*background-image: url(../src/bg.png);
     background-repeat: repeat;
-    background-size: cover;
+    background-size: contain;
     background-color: #171614;
-    color: white;
-}
+    color: white;*/
+    background-color: black;
+    font-family: "Montserrat";
+} 
 .header { 
   	position: relative;
     padding-top: 56px;
@@ -52,4 +54,7 @@ body background-image {
 }
 hr {
     height: 30px;
+}
+.image {
+    max-height: 800px;
 }
